@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="DESCRIPTION META TAG">
+    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+    <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+    <meta property="og:url" content="URL OF THE WEBSITE"/>
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/your_banner_image.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Reconstructing Satellites in 3D from Amateur Telescope Images</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto 2rem;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 2rem 0 1rem;
+            text-align: center;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer.footer {
+            padding: 1.5rem 1rem; /* 调小上下间距 */
+            font-size: 0.9rem;     /* 字体略小 */
+            background-color: #fafafa; /* 可选，浅色背景 */
+        }
+
+        footer.footer p {
+            margin: 0;
+            line-height: 1.2;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h3 class="title is-2 publication-title">Reconstructing Satellites in 3D from Amateur Telescope
+                        Images</h3>
+                    <div class="is-size-5 publication-authors">
+                        <!-- Paper authors -->
+                        <span class="author-block">Zhiming Chang<sup>1</sup>,</span>
+                        <span class="author-block">Boyang Liu<sup>2</sup>,</span>
+                        <span class="author-block">Yifei Xia<sup>1</sup>,</span>
+                        <span class="author-block">Youming Guo<sup>3</sup>,</span>
+                        <span class="author-block">
+                            <a href="http://camera.pku.edu.cn" target="_blank">Boxin Shi</a><sup>1</sup>and</span>
+                        <span class="author-block">
+                            <a href="https://ai4scientificimaging.org/"
+                               target="_blank">He Sun</a><sup>1</sup><sup>†</sup></span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="eql-cntrb"><br><sup>1</sup>Peking University</span>
+                        <span class="eql-cntrb"><br><sup>2</sup>Earthrise Edu&Tech</span>
+                        <span class="eql-cntrb"><br><sup>3</sup>Institute of Optics and Electronics of the Chinese Academy of Sciences</span>
+                        <span class="eql-cntrb"><br><sup>†</sup>Corresponding author</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+
+
+                            <!-- Arxiv PDF link -->
+                            <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2404.18394" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                        </span>
+
+
+                            <!-- Github link -->
+                            <span class="link-block">
+                    <a href="https://github.com/mingzzc/ReconstructingSatellite" target="_blank"
+                       class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body " style="width: 85%; margin: 0 auto;">
+            <img src="static/images/pipeline.png" style="height: auto; display: block; margin: 20px auto;">
+            <p style="text-align: justify; font-size: 0.95rem;">
+                <strong>Overview of the 3D satellite reconstruction method.</strong>
+                (a) Image pre-processing: We suppress atmospheric turbulence and noise via classical signal processing and a Video Restoration Transformer (VRT).
+                (b) Pose estimation & reconstruction: A modified SfM with orthographic projection initializes camera poses by sequentially registering adjacent frames, refined via branch-and-bound (BnB) search. We regulate Gaussian growth to capture low- to high-frequency details progressively.
+                (c) Post-processing: KNN filtering removes noisy or isolated points.
+                (d) Training schedule: The full optimization process is illustrated.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Monitoring space objects is crucial for space situational awareness, yet reconstructing 3D
+                        satellite models from ground-based telescope images is super challenging due to atmospheric
+                        turbulence, long observation distances, limited viewpoints, and low signal-to-noise ratios. In
+                        this paper, we propose a novel computational imaging framework that overcomes these obstacles by
+                        integrating a hybrid image pre-processing pipeline with a joint pose estimation and 3D
+                        reconstruction module based on controlled Gaussian Splatting (GS) and Branch-and-Bound (BnB)
+                        search. We validate our approach on both synthetic satellite datasets and on-sky observations of
+                        China’s Tiangong Space Station and the International Space Station, achieving robust 3D
+                        reconstructions of low-Earth orbit satellites from ground-based data. Quantitative evaluations
+                        using SSIM, PSNR, LPIPS, and Chamfer Distance demonstrate that our method outperforms
+                        state-of-the-art NeRF-based approaches, and ablation studies confirm the critical role of each
+                        component. Our framework enables high-fidelity 3D satellite monitoring from Earth, offering a
+                        cost-effective alternative for space situational awareness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container">
+            <section class="hero is-small">
+                <div class="hero-body">
+                    <div class="container">
+
+                        <!-- 第一行标题 + 图 -->
+                        <div class="section-title">Processed Data</div>
+                        <div class="grid-container">
+                            <div class="grid-item"><img src="static/render/raw_css.gif" alt="CSS" loop></div>
+                            <div class="grid-item"><img src="static/render/raw_iss.gif" alt="ISS" loop></div>
+                            <div class="grid-item"><img src="static/render/raw_simu1.gif" alt="Simu1" loop></div>
+                            <div class="grid-item"><img src="static/render/raw_simu2.gif" alt="Simu2" loop></div>
+                            <div class="grid-item"><img src="static/render/raw_simu3.gif" alt="Simu3" loop></div>
+                        </div>
+
+                        <!-- 第二行标题 + 图 -->
+                        <div class="section-title">Reconstruction Results</div>
+                        <div class="grid-container">
+                            <div class="grid-item"><img src="static/render/render_css.gif" alt="CSS" loop></div>
+                            <div class="grid-item"><img src="static/render/render_iss.gif" alt="ISS" loop></div>
+                            <div class="grid-item"><img src="static/render/render_simu1.gif" alt="Simu1" loop></div>
+                            <div class="grid-item"><img src="static/render/render_simu2.gif" alt="Simu2" loop></div>
+                            <div class="grid-item"><img src="static/render/render_simu3.gif" alt="Simu3" loop></div>
+                        </div>
+
+                        <!-- 第三行标题 + 图 -->
+                        <div class="section-title">PointCloud Results</div>
+                        <div class="grid-container">
+                            <div class="grid-item"><img src="static/render/css_rotation.gif" alt="CSS" loop></div>
+                            <div class="grid-item"><img src="static/render/iss_rotation.gif" alt="ISS" loop></div>
+                            <div class="grid-item"><img src="static/render/simu1_rotation.gif" alt="Simu1" loop></div>
+                            <div class="grid-item"><img src="static/render/simu2_rotation.gif" alt="Simu2" loop></div>
+                            <div class="grid-item"><img src="static/render/simu3_rotation.gif" alt="Simu3" loop></div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</section>
+<!-- End image carousel -->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@article{chang2024reconstructing,
+  title={Reconstructing satellites in 3d from amateur telescope images},
+  author={Chang, Zhiming and Liu, Boyang and Xia, Yifei and Bai, Weimin and Guo, Youming and Shi, Boxin and Sun, He},
+  journal={arXiv preprint arXiv:2404.18394},
+  year={2024}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-12">
+                <div class="content has-text-centered">
+                    <p>
+                        © Computational Scientific Imaging Lab @ PKU, Since 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
